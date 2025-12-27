@@ -1,0 +1,345 @@
+main{
+    background-image: url(ASSETS/NETFLIX\ BACKGROUND.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-size: fill;
+}
+
+main .box{
+    height: 91vh;
+    width: 100vw;
+    opacity: 0.78;
+    background-color: black;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+span1{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: white;
+    background-color: black;
+   left: 680px;
+   position: relative;
+   
+}
+span2{
+    background-color: #e50914;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: white;
+    margin-left: 690px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    max-width: 100vw;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.flex{
+    width: 100vw;
+    height: 60px;
+    opacity: 0.78;
+    background-color: black;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+h2{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+span3 input{
+    background-color:rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 26%;
+    top: 30px;
+    padding-left:10px;
+    padding-right: 130px;
+    border: 0.5px solid white;
+
+}
+span4{
+    background-color:#e50914;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 26.5%;
+    top: 30px;
+    padding-left:10px;
+    padding-right:70px;
+    border: 0.5px #e50914 solid;
+    
+}
+footer{
+    background-color: black;
+    
+    
+    width: 100vw;
+}
+h3{
+    color: white;
+    text-align: left;
+    padding: 20px ;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.trending{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+span{
+    color: white;
+    font-size: 65px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+span img{
+    border-radius: 10px;
+}
+.grid1{
+    display: grid;
+    
+}
+h4{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+p{
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding:10px;
+}
+.gr1{
+    text-align: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 60px;
+
+}
+.gr2{
+    text-align: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 50px;
+    margin-right: 60px;
+
+}
+.gr3{
+    text-align: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 50px;
+    margin-left: 60px;
+
+}
+.gr4{
+    text-align: center;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    padding: 50px;
+    margin-right: 60px;
+
+}
+h5{
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: rgb(45, 44, 44) 0.5px solid;
+    background-color: rgb(33, 32, 32);
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+span5 input{
+    background-color:rgb(21, 21, 21);
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left: 26%;
+    top: 30px;
+    padding-left:10px;
+    padding-right: 130px;
+    border: 0.5px solid white;
+
+}   
+h6{
+    color: gray;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: 100px;
+} 
+.grid2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    padding:10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.gr5{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr6{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr7{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr8{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr9{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr10{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr11{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr12{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr13{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr14{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr15{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr16{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr17{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr18{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+.gr19{
+    text-align: left;
+    text-decoration: underline;
+    font-size: 15px;
+    color: gray;
+}
+span6{
+     border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+    color: white;
+    background-color: rgb(21, 21, 21);
+   margin: 50px;
+   position: relative;
+}
+p1{
+    color: gray;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    margin-bottom: 50px;
+}
+p2{
+    color: rgb(36, 71, 243);
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+.shradha{
+    width: 100vw;
+    height: 100px;
+    background-color: black;
+}
