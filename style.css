@@ -27,6 +27,7 @@ span1{
     background-color: black;
    left: 680px;
    position: relative;
+    cursor: pointer;
    
 }
 span2{
@@ -35,6 +36,7 @@ span2{
     padding: 5px 30px;
     color: white;
     margin-left: 690px;
+    cursor: pointer;
 }
 nav{
     display: flex;
@@ -93,6 +95,7 @@ span4{
     padding-left:10px;
     padding-right:70px;
     border: 0.5px #e50914 solid;
+    cursor: pointer;
     
 }
 footer{
