@@ -349,3 +349,141 @@ p2{
 body{
     background-color: black;
 }
+@media (max-width: 768px) {
+
+    
+    nav {
+        justify-content: space-between;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    span1 {
+        left: 0;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+
+    span2 {
+        margin-left: 10px;
+        padding: 5px 15px;
+        font-size: 14px;
+    }
+
+    nav img {
+        width: 100px;
+        height: auto;
+    }
+
+   
+    h1 {
+        font-size: 32px;
+        padding-top: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h2, p {
+        font-size: 16px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+   
+    span3 input,
+    span5 input {
+        left: 0;
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+        padding-right: 10px;
+        font-size: 16px;
+    }
+
+    span4 {
+        left: 0;
+        width: 90%;
+        margin: 10px auto;
+        display: block;
+        text-align: center;
+        font-size: 16px;
+    }
+
+    
+    .trending {
+        overflow-x: auto;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .trending span {
+        font-size: 40px;
+        min-width: 140px;
+    }
+
+    .trending img {
+        width: 120px;
+        height: auto;
+    }
+
+    
+    .grid1 {
+        grid-template-columns: 1fr;
+    }
+
+    .gr1, .gr2, .gr3, .gr4 {
+        margin: 0;
+        padding: 30px;
+    }
+
+   
+    h5 {
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 16px;
+    }
+
+    
+    .grid2 {
+        grid-template-columns: 1fr 1fr;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    h6, p1, p2 {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    span6 {
+        margin: 15px;
+        display: inline-block;
+    }
+}
+
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    span3 input,
+    span5 input {
+        left: 10%;
+    }
+
+    span4 {
+        left: 10%;
+    }
+
+    .grid1 {
+        grid-template-columns: 1fr;
+    }
+
+    .grid2 {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
