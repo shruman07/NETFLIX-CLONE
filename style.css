@@ -28,8 +28,12 @@ span1{
    left: 680px;
    position: relative;
     cursor: pointer;
-   
+   transition: 0.3s;
 }
+span1:hover{
+    transform: translateY(-5px);
+}
+
 span2{
     background-color: #e50914;
     border-radius: 5px;
@@ -37,7 +41,12 @@ span2{
     color: white;
     margin-left: 690px;
     cursor: pointer;
+    transition: 0.3s
 }
+span2:hover{
+    transform: translateY(-5px);
+}
+
 nav{
     display: flex;
     align-items: center;
